@@ -215,6 +215,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  position: relative;
 }
 .card1 {
   padding: 50px 70px 100px 20px;
@@ -239,14 +240,16 @@ section {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  position: absolute;
   margin-left: 20px;
+  top: -20px;
   background: linear-gradient(180deg, #ff6a3d, #ff1493);
 }
 .icon i {
   color: white;
 }
 .card-title {
-  margin: 20px 0px 20px 20px;
+  margin: 50px 0px 20px 20px;
 }
 .card-title h4 {
   font-size: 20px;
